@@ -64,9 +64,11 @@ def task_run(thread_name):
         begin_time = datetime.datetime.today()
 
         if task_type == 'PDI':
+            ''' for windows
             run_shell = 'D:/kettle8.2/kitchen.bat -rep scheduler -dir /BIN -job SCHEDULER \
-                -level Basic "-param:ETL_FREQUENCY=' + etl_frequency + '" "-param:ETL_TIME=' + str(etl_time) + '" "-param:TASK_ID=' + task_id +'"'
-            #print(run_shell)
+                -level Basic "-param:ETL_FREQUENCY=' + etl_frequency + '" "-param:ETL_TIME=' + str(etl_time) + '" "-param:TASK_ID=' + task_id +'"'  
+            '''
+            run_shell = '/usr/local/kettle7.1/kitchen.sh -rep REPOS_PDI -dir /BIN -job SCHEDULER -level Basic -param:ETL_FREQUENCY=' + etl_frequency + ' -param:ETL_TIME=' + str(etl_time) + ' -param:TASK_ID=' + task_id
             run_status=subprocess.getstatusoutput(run_shell)
             end_time = datetime.datetime.today()
             etl_status,run_log = run_status
@@ -78,7 +80,7 @@ def task_run(thread_name):
                 etl_status = '1'
             else:
                 etl_status = '2'
-            print(etl_status)
+            #print(etl_status)
             list_param = [task_id,etl_frequency,etl_status,etl_time,begin_time,end_time,run_log_short]
             query_result = scheduler_util.oracle_insert(map_conn,str_sql_insert,list_param)
 
@@ -93,7 +95,7 @@ def task_run(thread_name):
                 etl_status = '0'
             else:
                 etl_status == '2'
-            print(etl_status)
+            #print(etl_status)
 
         if etl_status == '1':
             logging.info("%s %s %s successfully executed", etl_time, task_id, threading.currentThread().getName() )
@@ -104,13 +106,13 @@ def task_run(thread_name):
             if task_id not in map_error.keys():
                 map_error[task_id] = 1
                 queue_task.put(str_tast)
-                logging.warn("%s %s %s fail executed  time-1", etl_time, task_id, threading.currentThread().getName() )
+                logging.warning("%s %s %s fail executed  time-1", etl_time, task_id, threading.currentThread().getName() )
             elif map_error[task_id] < 2:
                 map_error[task_id] += 1
                 queue_task.put(str_tast)
-                logging.warn("%s %s %s fail executed  time-%s", etl_time, task_id, threading.currentThread().getName(), map_pdi_error[task_id] )
+                logging.warning("%s %s %s fail executed  time-%s", etl_time, task_id, threading.currentThread().getName(), map_error[task_id] )
             else:
-                logging.error("%s %s %s fail executed  time-%s", etl_time, task_id, threading.currentThread().getName(), map_pdi_error[task_id] + 1 )
+                logging.error("%s %s %s fail executed  time-%s", etl_time, task_id, threading.currentThread().getName(), map_error[task_id] + 1 )
 
 list_thread = []
 for i in range(etl_parallel):

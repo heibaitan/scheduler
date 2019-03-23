@@ -3,3 +3,4 @@
 python D:/@project/python/scheduler/bin/scheduler.py D 4
 
 #linux
+python3 /usr/local/scheduler/bin/scheduler.py D 4

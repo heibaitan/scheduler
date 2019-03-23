@@ -1,0 +1,15 @@
+#安装 cx_Oracle
+pip install cx_Oracle
+
+#安装 oracle clent
+oracle 官网下载rpm，拷贝到centos
+rpm -ivh oracle-instantclient12.2-basic-12.2.0.1.0-1.x86_64.rpm 
+
+修改 ~/.bash_profile，最后加上
+export LD_LIBRARY_PATH=/usr/lib/oracle/12.2/client64/lib:$LD_LIBRARY_PATH
+source ~/.bash_profile
+
+
+
+参考：
+https://cx-oracle.readthedocs.io/en/latest/installation.html#install-oracle-client

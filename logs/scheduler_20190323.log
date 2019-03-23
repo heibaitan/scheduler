@@ -1,0 +1,122 @@
+2019-03-23 23:09:35 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:09:35 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:09:35 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:09:35 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:09:35 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:09:35 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:09:35 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:09:35 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:09:36 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 successfully executed
+2019-03-23 23:09:36 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-2 start execute
+2019-03-23 23:09:37 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 successfully executed
+2019-03-23 23:09:37 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 successfully executed
+2019-03-23 23:09:41 scheduler.py[line:111] WARNING 20190322 ODS_APP_NAME Thread-2 fail executed  time-1
+2019-03-23 23:09:41 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-2 start execute
+2019-03-23 23:09:44 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 successfully executed
+2019-03-23 23:09:45 scheduler.py[line:130] INFO 20190322 all task successfully executed
+2019-03-23 23:12:31 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:12:31 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:12:31 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:12:31 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:12:31 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:12:31 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:12:31 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:12:31 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:12:36 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 successfully executed
+2019-03-23 23:12:36 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:12:40 scheduler.py[line:111] WARNING 20190322 ODS_APP_NAME Thread-1 fail executed  time-1
+2019-03-23 23:12:40 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:12:40 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 successfully executed
+2019-03-23 23:12:41 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 successfully executed
+2019-03-23 23:12:44 scheduler.py[line:115] WARNING 20190322 ODS_APP_NAME Thread-1 fail executed  time-2
+2019-03-23 23:12:44 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:12:48 scheduler.py[line:117] ERROR 20190322 ODS_APP_NAME Thread-1 fail executed  time-3
+2019-03-23 23:12:49 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 successfully executed
+2019-03-23 23:12:49 scheduler.py[line:130] INFO 20190322 all task successfully executed
+2019-03-23 23:18:45 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:18:45 scheduler.py[line:90] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:18:45 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:18:45 scheduler.py[line:90] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:18:45 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:18:45 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:18:45 scheduler.py[line:90] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:18:45 scheduler.py[line:90] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:18:46 scheduler.py[line:102] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 successfully executed
+2019-03-23 23:18:46 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-2 start execute
+2019-03-23 23:18:47 scheduler.py[line:102] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 successfully executed
+2019-03-23 23:18:47 scheduler.py[line:102] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 successfully executed
+2019-03-23 23:18:51 scheduler.py[line:110] WARNING 20190322 ODS_APP_NAME Thread-2 fail executed  time-1
+2019-03-23 23:18:51 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-2 start execute
+2019-03-23 23:18:54 scheduler.py[line:102] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 successfully executed
+2019-03-23 23:18:55 scheduler.py[line:114] WARNING 20190322 ODS_APP_NAME Thread-2 fail executed  time-2
+2019-03-23 23:18:55 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-2 start execute
+2019-03-23 23:18:59 scheduler.py[line:116] ERROR 20190322 ODS_APP_NAME Thread-2 fail executed  time-3
+2019-03-23 23:18:59 scheduler.py[line:129] INFO 20190322 all task successfully executed
+2019-03-23 23:20:22 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:20:22 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:20:22 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:20:22 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:20:22 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:20:22 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:20:22 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:20:22 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:20:26 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 successfully executed
+2019-03-23 23:20:26 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:20:28 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 successfully executed
+2019-03-23 23:20:28 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 successfully executed
+2019-03-23 23:20:31 scheduler.py[line:111] WARNING 20190322 ODS_APP_NAME Thread-1 fail executed  time-1
+2019-03-23 23:20:31 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:20:36 scheduler.py[line:115] WARNING 20190322 ODS_APP_NAME Thread-1 fail executed  time-2
+2019-03-23 23:20:36 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:20:36 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 successfully executed
+2019-03-23 23:20:40 scheduler.py[line:117] ERROR 20190322 ODS_APP_NAME Thread-1 fail executed  time-3
+2019-03-23 23:20:40 scheduler.py[line:130] INFO 20190322 all task successfully executed
+2019-03-23 23:21:44 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:21:44 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:21:44 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:21:44 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:21:44 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:21:44 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:21:44 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:21:44 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:21:50 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 successfully executed
+2019-03-23 23:21:50 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:21:52 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 successfully executed
+2019-03-23 23:21:53 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 successfully executed
+2019-03-23 23:22:01 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 successfully executed
+2019-03-23 23:22:26 scheduler.py[line:103] INFO 20190322 ODS_APP_NAME Thread-1 successfully executed
+2019-03-23 23:22:26 scheduler.py[line:130] INFO 20190322 all task successfully executed
+2019-03-23 23:24:32 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:24:32 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:24:32 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:24:32 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:24:32 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:24:32 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:24:32 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:24:32 scheduler.py[line:91] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:24:38 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 successfully executed
+2019-03-23 23:24:38 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:24:41 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 successfully executed
+2019-03-23 23:24:42 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 successfully executed
+2019-03-23 23:24:50 scheduler.py[line:103] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 successfully executed
+2019-03-23 23:24:55 scheduler.py[line:111] WARNING 20190322 ODS_APP_NAME Thread-1 fail executed  time-1
+2019-03-23 23:24:55 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:25:12 scheduler.py[line:115] WARNING 20190322 ODS_APP_NAME Thread-1 fail executed  time-2
+2019-03-23 23:25:12 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-1 start execute
+2019-03-23 23:25:33 scheduler.py[line:117] ERROR 20190322 ODS_APP_NAME Thread-1 fail executed  time-3
+2019-03-23 23:25:33 scheduler.py[line:130] INFO 20190322 all task successfully executed
+2019-03-23 23:29:30 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:29:30 scheduler.py[line:89] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-23 23:29:30 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:29:30 scheduler.py[line:89] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-23 23:29:30 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:29:30 scheduler.py[line:89] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-23 23:29:30 scheduler.py[line:63] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:29:30 scheduler.py[line:89] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-23 23:29:32 scheduler.py[line:101] INFO 20190322 P_DWD_RES2_TE_CHAPTER_D Thread-2 successfully executed
+2019-03-23 23:29:32 scheduler.py[line:63] INFO 20190322 ODS_APP_NAME Thread-2 start execute
+2019-03-23 23:29:34 scheduler.py[line:101] INFO 20190322 P_DWD_RES2_TOPIC_RES_D Thread-1 successfully executed
+2019-03-23 23:29:37 scheduler.py[line:101] INFO 20190322 P_DWD_RES2_PROD_RES_D Thread-3 successfully executed
+2019-03-23 23:29:47 scheduler.py[line:101] INFO 20190322 P_DWD_RES2_CLASSICATREL_D Thread-4 successfully executed
+2019-03-23 23:29:50 scheduler.py[line:101] INFO 20190322 ODS_APP_NAME Thread-2 successfully executed
+2019-03-23 23:29:50 scheduler.py[line:128] INFO 20190322 all task successfully executed

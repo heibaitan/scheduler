@@ -38,7 +38,7 @@ def oracle_select(str_conn,str_sql):
         return result
     except Exception as e:
         print('数据库查询失败')
-
+		
 #连接oracle数据库，执行insert
 def oracle_insert(str_conn,str_sql,list_param):
     v_host = str_conn['host']
@@ -97,3 +97,12 @@ def send_mail(map_sender,map_receiver,str_mail_msg):
         smtp.quit()
     except smtplib.SMTPException as e:
         print("邮件发送失败",e)
+		
+'''
+map_conn = {}
+map_conn = xml2map('conn','conn_dw',map_conn)
+#将待执行的任务写入队列
+v_sql_tasklist = "SELECT 1 FROM DUAL"
+query_result = oracle_select(map_conn,v_sql_tasklist)
+print (query_result)
+'''
