@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<!--etl日志所在库链接-->
+    <conn name="conn_dw">
+        <host>127.0.30.69</host>
+        <port>1521</port>
+        <database>jhqtjdb</database>
+        <user>dw</user>
+        <password>pass4dw</password>
+    </conn>
+	<!--发件人信息-->
+    <mail name="from">
+		<server>smtp.qq.com</server>
+        <port>25</port>
+        <user>841059921@qq.com</user>
+        <password>dfubnrkjaqajbdei</password>
+    </mail>
+	<!--收件人列表，逗号分隔-->
+    <mail name="to">
+		<user_list>liwenzhi@whty.com.cn,heibaitan@163.com</user_list>
+    </mail>
+</data>

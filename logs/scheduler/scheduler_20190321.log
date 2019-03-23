@@ -1,0 +1,9 @@
+2019-03-21 15:33:08 scheduler.py[line:18] INFO scheduler_date = 20190321  first line
+2019-03-21 15:33:08 scheduler.py[line:20] INFO scheduler_date = 20190321  second line
+2019-03-21 15:33:08 scheduler.py[line:21] ERROR scheduler_date = 20190321  second line
+2019-03-21 15:41:08 scheduler.py[line:27] INFO scheduler_date = 20190321  first line
+2019-03-21 15:41:08 scheduler.py[line:29] INFO scheduler_date = 20190321  second line
+2019-03-21 15:41:08 scheduler.py[line:30] ERROR scheduler_date = 20190321  second line
+2019-03-21 15:50:37 scheduler.py[line:27] INFO scheduler_date = 20190321  first line
+2019-03-21 15:50:37 scheduler.py[line:29] INFO scheduler_date = 20190321  second line
+2019-03-21 15:50:37 scheduler.py[line:30] ERROR scheduler_date = 20190321  second line
