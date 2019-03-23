@@ -1,0 +1,5 @@
+
+#windows
+python D:/@project/python/scheduler/bin/scheduler.py D 4
+
+#linux
