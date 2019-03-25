@@ -1,0 +1,39 @@
+2019-03-25 09:51:36 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-25 09:51:36 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-25 09:51:36 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-25 09:51:36 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-25 09:51:50 scheduler.py[line:130] INFO 20190324 all task successfully executed
+2019-03-25 09:53:13 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-25 09:53:13 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-25 09:53:13 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-25 09:53:13 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-25 09:53:18 scheduler.py[line:102] INFO 20190324 PLSQL P_DWD_RES2_TOPIC_RES_D Thread-1 successfully executed, start at 2019-03-25 09:53:13 costs 0.08minutes
+2019-03-25 09:53:18 scheduler.py[line:63] INFO 20190324 ODS_APP_NAME Thread-1 start execute
+2019-03-25 09:53:21 scheduler.py[line:102] INFO 20190324 PLSQL P_DWD_RES2_TE_CHAPTER_D Thread-2 successfully executed, start at 2019-03-25 09:53:13 costs 0.12minutes
+2019-03-25 09:53:22 scheduler.py[line:102] INFO 20190324 PLSQL P_DWD_RES2_PROD_RES_D Thread-3 successfully executed, start at 2019-03-25 09:53:13 costs 0.13minutes
+2019-03-25 09:53:27 scheduler.py[line:102] INFO 20190324 PLSQL P_DWD_RES2_CLASSICATREL_D Thread-4 successfully executed, start at 2019-03-25 09:53:13 costs 0.22minutes
+2019-03-25 09:53:41 scheduler.py[line:102] INFO 20190324 PDI ODS_APP_NAME Thread-1 successfully executed, start at 2019-03-25 09:53:18 costs 0.37minutes
+2019-03-25 09:53:41 scheduler.py[line:130] INFO 20190324 all task successfully executed
+
+2019-03-25 10:10:57 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-25 10:10:57 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-25 10:10:57 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-25 10:10:57 scheduler.py[line:63] INFO 20190324 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-25 10:10:59 scheduler.py[line:102] INFO 20190324 PLSQL P_DWD_RES2_TE_CHAPTER_D Thread-2 executed successfully, start at 2019-03-25 10:10:57 costs 0.02minutes
+2019-03-25 10:10:59 scheduler.py[line:102] INFO 20190324 PLSQL P_DWD_RES2_PROD_RES_D Thread-3 executed successfully, start at 2019-03-25 10:10:57 costs 0.02minutes
+2019-03-25 10:10:59 scheduler.py[line:63] INFO 20190324 ODS_APP_NAME Thread-2 start execute
+2019-03-25 10:10:59 scheduler.py[line:102] INFO 20190324 PLSQL P_DWD_RES2_TOPIC_RES_D Thread-1 executed successfully, start at 2019-03-25 10:10:57 costs 0.03minutes
+2019-03-25 10:11:05 scheduler.py[line:102] INFO 20190324 PLSQL P_DWD_RES2_CLASSICATREL_D Thread-4 executed successfully, start at 2019-03-25 10:10:57 costs 0.13minutes
+2019-03-25 10:11:19 scheduler.py[line:102] INFO 20190324 PDI ODS_APP_NAME Thread-2 executed successfully, start at 2019-03-25 10:10:59 costs 0.32minutes
+2019-03-25 10:11:19 scheduler.py[line:130] INFO 20190324 all task executed done
+2019-03-25 10:15:15 scheduler.py[line:62] INFO 20190324 P_DWD_RES2_TOPIC_RES_D Thread-1 start execute
+2019-03-25 10:15:15 scheduler.py[line:62] INFO 20190324 P_DWD_RES2_TE_CHAPTER_D Thread-2 start execute
+2019-03-25 10:15:15 scheduler.py[line:62] INFO 20190324 P_DWD_RES2_PROD_RES_D Thread-3 start execute
+2019-03-25 10:15:15 scheduler.py[line:62] INFO 20190324 P_DWD_RES2_CLASSICATREL_D Thread-4 start execute
+2019-03-25 10:15:18 scheduler.py[line:101] INFO 20190324 PLSQL P_DWD_RES2_PROD_RES_D Thread-3 executed successfully [start at 2019-03-25 10:15:15 costs 0.03 minutes]
+2019-03-25 10:15:18 scheduler.py[line:62] INFO 20190324 ODS_APP_NAME Thread-3 start execute
+2019-03-25 10:15:21 scheduler.py[line:101] INFO 20190324 PLSQL P_DWD_RES2_TOPIC_RES_D Thread-1 executed successfully [start at 2019-03-25 10:15:15 costs 0.08 minutes]
+2019-03-25 10:15:23 scheduler.py[line:101] INFO 20190324 PLSQL P_DWD_RES2_TE_CHAPTER_D Thread-2 executed successfully [start at 2019-03-25 10:15:15 costs 0.12 minutes]
+2019-03-25 10:15:31 scheduler.py[line:101] INFO 20190324 PLSQL P_DWD_RES2_CLASSICATREL_D Thread-4 executed successfully [start at 2019-03-25 10:15:15 costs 0.25 minutes]
+2019-03-25 10:15:39 scheduler.py[line:101] INFO 20190324 PDI ODS_APP_NAME Thread-3 executed successfully [start at 2019-03-25 10:15:18 costs 0.33 minutes]
+2019-03-25 10:15:39 scheduler.py[line:129] INFO 20190324 all task executed done
