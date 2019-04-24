@@ -2,21 +2,21 @@
 <data>
 	<!--etl日志所在库链接-->
     <conn name="conn_dw">
-        <host>127.0.30.69</host>
+        <host>xxx</host>
         <port>1521</port>
-        <database>jhqtjdb</database>
-        <user>dw</user>
-        <password>pass4dw</password>
+        <database>xxx</database>
+        <user>xxx</user>
+        <password>xxx</password>
     </conn>
 	<!--发件人信息-->
     <mail name="from">
 		<server>smtp.qq.com</server>
         <port>25</port>
-        <user>841059921@qq.com</user>
-        <password>dfubnrkjaqajbdei</password>
+        <user>xxxxx@qq.com</user>
+        <password>xxxxxx</password>
     </mail>
 	<!--收件人列表，逗号分隔-->
     <mail name="to">
-		<user_list>liwenzhi@whty.com.cn,heibaitan@163.com</user_list>
+		<user_list>xxx@whty.com.cn,xxxxx@163.com</user_list>
     </mail>
 </data>
